@@ -1,0 +1,150 @@
+
+/************footer start***************************/
+
+footer {
+    padding: 90px 0 0 0;
+  }
+  
+  .ftr_btm {
+    background: #ffd145;
+    padding: 12px;
+  }
+  
+  .ftr_title {
+    margin-bottom: 40px;
+    padding-top: 35px;
+  }
+  
+  .ftr_btm p {
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    color: #131734;
+    font-weight: 400;
+  }
+  
+  .ftr_des p {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .ftr_top_search {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .ftr_title h4 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .ftr_socail_icon {
+    padding: 15px 0;
+  }
+  
+  .ftr_socail_icon ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .ftr_socail_icon ul li {
+    padding-right: 7px;
+  }
+  
+  .ftr_des li {
+    list-style: none;
+    padding-bottom: 10px;
+    display: block;
+  }
+  
+  .ftr_des li a {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .ftr_des {
+    padding-bottom: 30px;
+  }
+  
+  .ftr_top_search {
+    padding: 50px 204px 50px 204px;
+    width: 90%;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .ftr_top_search .form-control {
+    width: 79%;
+    padding: 32px 0 32px 50px;
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ftr_top_search ::placeholder {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.555556px;
+    color: #013761;
+  }
+  
+  .input-group-append {
+    background: linear-gradient(25.76deg, #0DB8E6 -25.01%, #3177B5 63.51%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.316293);
+    color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    padding: 22px 50px;
+  }
+  
+  .input-group-append:hover {
+    background: #131734;
+  }
+  
+  .ftr_top_search .input-group-text {
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  
+  .ftr_title img {
+    width: 40px;
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .ftr_top_search {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .ftr_top_search {
+        padding: 20px 13px;
+    }
+    .input-group-append {
+        background: #3177b5;
+        color: #fff;
+        padding: 13px 24px;
+    }
+    .input-group .form-control {
+        display: block;
+        width: 64%;
+        padding: 23px 0 23px 15px;
+    }
+}
+
+  /*******footer end***********/
