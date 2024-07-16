@@ -1,0 +1,108 @@
+/*==================================================header top=========================================================================================================*/
+.dropbtn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 0 3px 10px;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    background: rgba(255, 209, 69, 0.2);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    background-color: #fff;
+    color: black;
+    padding: 13px;
+    border: none;
+  }
+  
+  /*===== The container <div> - needed to position the dropdown content =====*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /*===== Dropdown Content (Hidden by Default) =====*/
+  .dropdown-content {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    display: none;
+    position: absolute;
+    background-color: #FCC51C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /*===== Links inside the dropdown =====*/
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /*===== Change color of dropdown links on hover =====*/
+  .dropdown-content a:hover {
+    background-color: #3177b5;
+    color: white;}
+  
+  /*===== Show the dropdown menu on hover =====*/
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*===== Change the background color of the dropdown button when the dropdown content is shown =====*/
+  .dropdown:hover .dropbtn {background-color: #FCC51C;}
+  
+  
+ .header_bottom .navbar {
+    margin-bottom: 0px;
+  }
+  
+  .nav .navbar-nav .navbar-right .active:hover {
+    color: #ffd248;
+  }
+  
+  .header_bottom .navbar-nav>li>a {
+    color: #131734;
+    font-weight: 700;
+  }
+  
+  .header_bottom .navbar-nav>li>a:hover {
+    background: #ffd248;
+    border-radius: 5px;
+  }
+  
+  .header_bottom .navbar-brand {
+    font-weight: 900;
+    padding: 2px 0;
+  }
+  
+  .header_bottom .navbar-brand>img {
+    display: block;
+    height: auto;
+    margin-left: 15px;
+  }
+  
+  .header_bottom nav select {
+    border: none;
+    /*===== margin-top: 15px; =====*/
+    font-weight: 600;
+    padding: 15px 5px;
+    border-radius: 5px;
+  }
+  
+  .header_bottom nav select option {
+    font-weight: 600;
+    padding: 15px 5px;
+  }
+  
+  .header_bottom nav select:hover {
+    background: #ffd248;
+  }
+  
+  

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700;800&display=swap">
+    <link rel="icon"        href="https://ubcdn.s3.ap-south-1.amazonaws.com/favicon.ico">
+</head>
+
+<body>
+    <div class="header_bottom">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <img src="https://www.utterbug.com/includes/assets/img/menu-Icon.png" alt="Menu" width="30px;">
+                    </button>
+                    <a class="navbar-brand" href="https://www.utterbug.com/"><img src="https://www.utterbug.com/includes/assets/img/logo.png" alt="logo" height="100px;" width="130px;"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li>
+                      <div class="dropdown">
+                        <button class="dropbtn"><a style="color:black" href="https://www.utterbug.com/">Home</a></button>
+
+                      </div>
+                      </li>
+
+                        <li>
+                          <div class="dropdown">
+                            <button class="dropbtn">Language</button>
+                            <div class="dropdown-content">
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-courses">Spanish</a>
+                              <a href="https://www.utterbug.com/learn-french/french-courses">French</a>
+                              <a href="https://www.utterbug.com/learn-german/german-courses">German</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="dropdown">
+                            <button class="dropbtn">Courses</button>
+                            <div class="dropdown-content">
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-newcomer">Newcomer</a>
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-beginner">Beginner</a>
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-intermediate">Intermediate</a>
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-advanced">Advanced</a>
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-expert">Expert</a>
+                              <a href="https://www.utterbug.com/learn-spanish/spanish-for-distinguished">Distinguished</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li><div class="dropdown"><button class="dropbtn"><a href="https://www.utterbug.com/login">Sign In</a></button></div></li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+<style>
+    /* Dropdown Button */
+    .dropbtn {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 2px 0 3px 10px;
+      cursor: pointer;
+      position: relative;
+      width: 100%;
+      background: rgba(255, 209, 69, 0.2);
+      border-radius: 5px;
+      margin-bottom: 7px;
+      background-color: #fff;
+      color: black;
+      padding: 13px;
+      border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      display: none;
+      position: absolute;
+      background-color: #FCC51C;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #3177b5;
+      color: white;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #FCC51C;}
+    </style>
+</html>
