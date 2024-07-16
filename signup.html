@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link
+      rel="icon"
+      href="https://www.utterbug.com/includes/assets_v1/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.utterbug.com/includes/assets_v1/css/bootstrap.css"
+    />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section class="log_in login_sec" data-aos="fade-up">
+      <div class="container">
+        <div class="login_content_title content_title text-center">
+          <a class="close" href="./index.html" style="float: right; margin-top: -15px"
+            >&times;</a
+          >
+
+          <h1>Sign Up</h1>
+          <img
+            src="https://www.utterbug.com/includes/assets_v1/img/blackndyellow.png"
+            alt="Learn Language Online"
+          />
+        </div>
+        <form name="frm">
+          <div class="login">
+            <div class="login_area">
+              <div class="login_col">
+                <span><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  class="input100"
+                />
+              </div>
+              <div class="login_col">
+                <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                <input
+                  type="Email"
+                  name="email"
+                  placeholder="Your Email Address"
+                  class="input100"
+                />
+              </div>
+              <div class="login_col asterisk">
+                <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="input100"
+                />
+              </div>
+              <div class="login_col dropdown">
+                <span><i class="fa fa-delicious" aria-hidden="true"></i></span>
+                <div class="custom-select">
+                  <p class="dropdownHead">Choose Language</p>
+                  <ul name="language" class="drpdwonList">
+                    <li value="1">Spanish</li>
+                    <li value="2">French</li>
+                    <li value="3">Italian</li>
+                    <li value="4">German</li>
+                    <li value="5">Swedish</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="login_col dropdown2">
+                <span><i class="fa fa-delicious" aria-hidden="true"></i></span>
+                <div class="custom-select">
+                  <p class="dropdownHead2">Why are you learning Language?</p>
+                  <ul name="language" class="drpdwonList2">
+                    <li value="1">School</li>
+                    <li value="2">Work/Job/Office</li>
+                    <li value="3">For Fun</li>
+                    <li value="4">Travel</li>
+                    <li value="5">Others</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" value="submit" class="btn_continue">
+              Register
+            </button>
+            <div class="btn_btn">
+              <a href="./signin.html">Login</a>
+            </div>
+            <div class="login_link">
+              <ul>
+                <li><a href="https://www.utterbug.com/terms">Terms</a></li>
+                <li><a href="https://www.utterbug.com/privacy">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div
+      class="pagination_login_page"
+      style="text-align: center; margin: 30px 0 40px 0"
+    >
+      <div class="container">
+        <ul class="text-align:center; matgin-top:50px;">
+          <div>
+            <a href="#"><button class="try_now" type="button">Back</button></a>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
 </html>
