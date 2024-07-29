@@ -48,7 +48,6 @@
   .table_sec td {
     padding: 5px 0 5px 15px;
     border: 1px solid #FFD145;
-    /* width: 50%; */
   }
   
   .table_sec h5 {
@@ -104,7 +103,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     letter-spacing: 0.18px;
     color: #3F3F3F;
   }
@@ -144,12 +142,10 @@
   }
   
   .list_of_phrases li {
-    /* width: 49%;*/
     display: block;
   }
   
   .list_of_phrases li h3 span {
-    /* Language details Page */
     color: #000;
     padding-left: 19px;
   }
@@ -211,7 +207,6 @@
   }
   
   .gdmrng {
-    /*text-align: right;*/
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -257,7 +252,6 @@
   
   .product_details_right li:focus .submenu {
     display: block;
-    /*margin-top: 5px;*/
   }
   
   .submenu li:hover .sub {
@@ -322,7 +316,6 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     letter-spacing: 0.18px;
     padding-top: 10px;
     color: #3F3F3F;
@@ -518,7 +511,6 @@
     font-size: 18px;
     line-height: 22px;
     padding: 14px 42px 13px 15px;
-    /* identical to box height */
     letter-spacing: 0.391304px;
     color: #131734;
   }
@@ -580,7 +572,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     letter-spacing: 0.304348px;
     width: 100%;
     color: #000000;
@@ -597,7 +588,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     letter-spacing: 0.304348px;
     width: 100%;
     color: #000000;
@@ -616,9 +606,6 @@
     top: 22px;
     left: 34px;
   }
-  
-  
-  /* identical to box height */
   
   
   /****dropdown*************/
@@ -681,7 +668,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 350px;*/
   }
   
   .inner_banner_caption {
@@ -746,7 +732,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* or 144% */
     text-align: center;
     letter-spacing: 0.18px;
     color: #3F3F3F;
@@ -790,7 +775,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
-    /* or 161% */
     text-align: center;
     letter-spacing: 0.18px;
     color: #2F2F2F;
@@ -847,7 +831,6 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     letter-spacing: 0.444444px;
     color: #FFD145;
     border-bottom: 1px solid #FFD145;
@@ -991,13 +974,6 @@
     .our_team1 .box img {
         width: 80px;
     }
-    /* Abhijit */
-    .banner_img {
-        /* height: 350px;*/
-    }
-    .inner_banner_caption {
-        /*margin-top: 13%;*/
-    }
   }
   
   @media only screen and (max-width: 991px) {
@@ -1081,13 +1057,6 @@
         width: 100%;
     }
     /****details innerpage end***/
-    /* Abhijit */
-    .banner_img {
-        /*height: 200px;*/
-    }
-    .inner_banner_caption {
-        /*margin-top: 6%;*/
-    }
     .inner_banner_caption h1 {
         font-size: 27px;
     }
@@ -1110,10 +1079,7 @@
         height: auto;
     }
     .gdmrng {
-        /* text-align: right; */
         position: inherit;
-        /* right: 10px; */
-        /* bottom: 10px; */
         text-align: right;
     }
     .list_of_phrases li:last-child .phrses_box {
@@ -1499,7 +1465,6 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 28px;
-        /* identical to box height */
         letter-spacing: 0.555556px;
         color: #013761;
     }
@@ -1510,11 +1475,7 @@
         padding-bottom: 0px;
     }
     /*****details inner page end***************/
-    /* Abhijit */
-    .banner_img {
-        /*height: 130px;*/
-    }
-    .inner_banner_caption {
+   .inner_banner_caption {
         padding: 50px 0;
     }
     .inner_banner_caption h1 {
@@ -1525,10 +1486,7 @@
         padding: 10px 0;
     }
   }
-  
-  
-  /*kaushik*/
-  
+ 
   .vocabulary .nav-tabs>li {
     width: 33.33333333%;
   }
@@ -1663,9 +1621,6 @@
     overflow: hidden;
   }
   
-  
-  /*ritam*/
-  
   .right_sec_col {
     width: 100%;
     display: inline-block;
@@ -1785,17 +1740,7 @@
   .open>.dropdown-toggle.btn-default:focus {
     background-color: #8de5ff;
   }
-  
-  
-  /*.sidebar_right_side.sticky-fixed {
-    position: fixed;
-    top: 1250px;
-    right: 0;
-    width: 21%;
-    z-index: 999;
-    margin-right: 7%;
-  }*/
-  
+    
   .start_sec_left_side .col-md-3.col-sm-3.col-sm-push-9.col-xs-12 {
     position: relative;
   }
@@ -1809,7 +1754,6 @@
   
   .custom-select select {
     display: none;
-    /*hide original SELECT element:*/
   }
   
   .select-selected {
@@ -1829,18 +1773,12 @@
     border: 6px solid transparent;
     border-color: #013761 transparent transparent transparent;
   }
-  
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  
+    
   .select-selected.select-arrow-active:after {
     border-color: transparent transparent #013761 transparent;
     top: 12px;
   }
-  
-  
-  /*style the items (options), including the selected item:*/
-  
+    
   .select-selected {
     color: #013761;
     padding: 10px 16px;
@@ -2004,11 +1942,7 @@
         font-size: 14px;
     }
   }
-  
-  
-  /*ritam*/
-  
-  
+ 
   /**custom selct***/
   
   .header_bottom .custom-select {
@@ -2020,7 +1954,6 @@
   
   .header_bottom .custom-select select {
     display: none;
-    /*hide original SELECT element:*/
   }
   
   .header_bottom .select-selected {
@@ -2042,18 +1975,10 @@
     border-color: #fff transparent transparent transparent;
     display: none;
   }
-  
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  
   .header_bottom .select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
     top: 7px;
   }
-  
-  
-  /*style the items (options), including the selected item:*/
-  
   .header_bottom .select-items div,
   .header_bottom .select-selected {
     color: #000;
@@ -2061,11 +1986,7 @@
     padding: 8px 16px;
     cursor: pointer;
     user-select: none;
-  }
-  
-  
-  /*style items (options):*/
-  
+  }  
   .header_bottom .select-items {
     position: absolute;
     background-color: #ffd248;
@@ -2073,11 +1994,7 @@
     left: 0;
     right: 0;
     z-index: 99;
-  }
-  
-  
-  /*hide the items when the select box is closed:*/
-  
+  }  
   .header_bottom .select-hide {
     display: none;
   }
@@ -2113,8 +2030,7 @@
         margin-top: 2px;
         top: 6px;
     }
-  }
-  
+  }  
   
   /**delivery**/
   
@@ -2521,9 +2437,7 @@
   }
   .no_box .delivery li .phrses_box br:first-child {
     display: none;
-  }
-  
-  /*use for pre tag*/
+  }  
   pre {
     padding: 0;
     margin: 0;
